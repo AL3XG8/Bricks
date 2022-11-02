@@ -28,7 +28,7 @@ void Game::Reset()
 	brick.doubleThick = true;
 	brick.color = ConsoleColor::DarkGreen;
 
-	for (size_t i = 0; i < 1; i++)
+	for (size_t i = 0; i < 5; i++)
 	{
 		bricks.push_back(brick);
 		brick.x_position += 15;
